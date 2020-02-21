@@ -18,7 +18,6 @@ public class ResetPosButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(StartPos);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -28,6 +27,5 @@ public class ResetPosButton : MonoBehaviour
             camera.transform.rotation = StartRot;
             camera.transform.position = StartPos;
         }
-        Debug.Log(other);
     }
 }

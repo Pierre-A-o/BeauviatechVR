@@ -10,6 +10,10 @@ TagManager:
   - main
   - Play/Pause
   - Play/Reset
+  - Rein
+  - Rein2
+  - Rein3
+  - Rein4
   layers:
   - Default
   - TransparentFX
